@@ -7,10 +7,11 @@
 </head>
 <body>
     <h1>Mi segundo archivo en PHP</h1>
-    <?php echo <<<END 
+    <?php echo <<<END
         En un mundo contectado,
         donde cada segundo se hacen al menos 100mil milanesas
-        electronicas... END; 
+        electronicas...
+        END; 
     ?>
 </body>
 </html>
