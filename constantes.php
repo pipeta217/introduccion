@@ -6,14 +6,10 @@
         <title>Document</title>
     </head>
     <body>
-        <?php 
-            //Forma 1
+        <?php
             define('GRAVEDAD', 10.8);  
-            //Forma 2
-            //const GRAVEDAD2 = 9.8;
-            echo "Gravedad 1 ", $GRAVEDAD;
-            //echo "Gravedad 2 ", $GRAVEDAD2;
-            
+            echo "La gravedad es: ", GRAVEDAD;
+            const GRAVEDAD = 9.8; 
         ?>
     </body>
 </html>
