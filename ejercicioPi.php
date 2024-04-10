@@ -9,9 +9,10 @@
     <?php
         define('PI', 3.1416);
         const PI = 3.14;
-        /*No es posible modificar el valor, puesto que el mismo es constante. 
-        Error: 
-        Warning: Constant PI already defined in C:\xampp\htdocs\introduccion\ejercicioPi.php on line 11
+        /*
+        1) Error: Warning: Constant PI already defined in C:\xampp\htdocs\introduccion\ejercicioPi.php on line 11
+        2) No es posible modificar el valor, puesto que el mismo es constante. 
+        3) Para alamcenar valores que no cambien durante la ejecucion del programa.
         */    
     ?>
 </body>
