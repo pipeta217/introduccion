@@ -18,7 +18,15 @@
         $texto = "Hola";
         
         var_dump($texto);
+        //Respuesta: string(4) "Hola"
+        var_dump($numero);
+        //Respuesta: int(1)
+        
+        print_r($texto);
+        //Respuesta: Hola
         print_r($numero);
+        //Respuesta: 1
+
         //print_r($decimal);
         //print_r($texto);
     ?>
