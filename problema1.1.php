@@ -9,20 +9,30 @@
 <body>
     </head>
     <body>
+        <header>
+            <h2><b>Verduleria Pepe</b></h2>
+        </header>
         <h1>Consumo final</h1>
-        <p>A continuacion se detallan los totales de su compra</p>
-        <?php
-            $kiloBanana = 3;
-            $kiloManzana = 2;
-            
-            $precioKBanana= 50;
-            $precioKManzana = 40;
-
-            $total = ($kiloBanana * $precioKBanana) + ($kiloManzana * $precioKManzana);
-            
-            echo "$kiloBanana kg de banana $ $precioKBanana <br>";
-            echo "$kiloManzana kg de manzana $ $precioKManzana <br>";
-            echo "Total: $total";
+        <h2>A continuación se detallan los totales de su compra.</h2>
+        <?php    
+             $kiloBanana = 3;
+             $kiloManzana = 2;
+             
+             $precioKBanana= 50;
+             $precioKManzana = 40;
+ 
+             $total = ($kiloBanana * $precioKBanana) + ($kiloManzana * $precioKManzana);
         ?>
+        <div class="cont1">
+            <ul>
+                <li>
+                    <?php echo "$kiloBanana kg de bananas $ $precioKBanana"?>
+                </li>
+                <li>
+                    <?php echo "$kiloManzana kg de bananas $ $precioKManzana"?>
+                </li>
+            </ul>
+            <?php echo "Total: $ $total"?>
+        </div>
     </body>
 </html>
