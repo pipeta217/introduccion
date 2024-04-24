@@ -36,6 +36,12 @@
         echo $planetas[0] ."<br>";
         echo $planetas[1] ."<br>";
         echo $planetas[2] ."<br>";
+        //var_dump($planetas);
+        //echo count($planetas); //Cantidad de datos. -> 3
+
+        foreach($semana as $dia) {
+            echo $dia . "<br>";
+        }
     ?>
 </body>
 </html>
