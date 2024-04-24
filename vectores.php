@@ -38,7 +38,9 @@
         echo $planetas[2] ."<br>";
         //var_dump($planetas);
         //echo count($planetas); //Cantidad de datos. -> 3
-
+        
+        //Para cada posicion de semana, almacenar el valor en dia.
+        //Para cada uno de los elemento del array semana, ejecutar el codigo.
         foreach($semana as $dia) {
             echo $dia . "<br>";
         }
