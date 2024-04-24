@@ -16,9 +16,26 @@
                     'Domingo'
                 ];
 
-        for($i=0;$i<7;$i++){
+        //echo $semana[0] ."<br>";
+
+        /*for($i=0;$i<7;$i++){
             echo "{$semana[$i]}  ";
-        }
+        }*/
+
+        /*$datos = [
+            'Hola', 
+            True,
+            6
+        ];*/
+        
+        $planetas = [];
+        //$planetas = array();.
+        $planetas [] = 'Marte';
+        $planetas [] = 'Tierra';
+        $planetas [] = 'Venus';
+        echo $planetas[0] ."<br>";
+        echo $planetas[1] ."<br>";
+        echo $planetas[2] ."<br>";
     ?>
 </body>
 </html>
