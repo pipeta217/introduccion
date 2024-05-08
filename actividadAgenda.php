@@ -15,6 +15,15 @@
         
         $agenda[0] = "dentista a las 16h";
     ?>
+    <!--FORMA 1-->  
+    <ul>
+        <?php
+            foreach($agenda as $lista){
+                echo "<li>$lista</li>";
+            }
+        ?>
+    </ul>
+    <!--FORMA 2-->
     <ul>
         <li><?php echo $agenda [0];?></li>
         <li><?php echo $agenda [1];?></li>
