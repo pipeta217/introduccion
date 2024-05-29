@@ -1,17 +1,29 @@
 body{
     text-align: center;
+    background-color: beige;
 }
 
-header{
-    text-align: left;
-    color: rgb(74, 74, 74);
+h1, h2{
+    font-size: 250%;
+    text-shadow: 4px -1px rgb(168, 168, 119);
 }
-.cont1 {
-    width: 250px;
-    height: 100px;
-    margin: 0 auto;
-    border: 1px solid black;
+
+.cuento{
+    font-family: 'Courier New', Courier, monospace;
 }
-/*.input{
-    width: 50px;
-}*/
+
+.padre{
+    position: relative;
+      
+   
+      
+}
+.hijo{
+    
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW2WrS1HPFqAIJmT_am0riWRhYw5wO6sPkow&s); 
+    border: 5px solid darkblue;
+}
